@@ -7,7 +7,7 @@ class dbHandler {
       die('Failed to connect to MySQL - ' . $this->conn->connect_error);
     }
   }
-
+##
   function get_data($tbl) {
     $sql = "SELECT * FROM $tbl";
     $result = $this->conn->query($sql);
